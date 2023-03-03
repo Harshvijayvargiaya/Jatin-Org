@@ -1,0 +1,22 @@
+<apex:page controller="GetAccountList">
+    <apex:slds />
+    <table  class="slds-table slds-table_cell-buffer slds-table_bordered" >
+        <center><b><h1>***Welcome to CRM Lanmding***</h1></b></center>
+        <thead>
+            <tr>
+                <th>Account Name</th>
+                <th>Account Number</th>
+                <th>Account Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <apex:repeat value="{!accList}" var="acc">
+                <tr>
+                    <th>{!acc.Name}</th>
+                    <th>{!acc.AccountNumber}</th>
+                    <th>{!acc.Phone}</th>
+                </tr>
+            </apex:repeat>
+        </tbody>
+    </table>
+</apex:page>

@@ -1,0 +1,28 @@
+<apex:page controller="ExampleController">
+    <apex:slds />
+    <table class="slds-table slds-table_cell-buffer slds-table_bordered" >
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Account Name</th>
+                <th>Amount</th>
+                <th>Close Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <apex:variable value="{!1}" var="i" />
+            <apex:repeat value="{!oppList}" var="opp">
+                <tr>
+                    <th>{!i}
+                    </th>
+                    <th>{!opp.Name}</th>
+                    <th>{!opp.Account.Name}</th>
+                    <th>{!opp.Amount}</th>
+                    <th>{!opp.CloseDate}</th>
+					<apex:variable value="{!i+1}" var="i"/>
+                </tr>
+            </apex:repeat>
+        </tbody>
+    </table>
+</apex:page>

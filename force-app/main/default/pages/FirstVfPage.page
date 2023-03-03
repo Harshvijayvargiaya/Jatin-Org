@@ -1,0 +1,204 @@
+<apex:page standardStylesheets="true" >
+    <html>
+        <title>Quote Template</title>
+        <body>
+            <h3>
+            XyzSFDC12
+        	</h3>
+            <br/><br/>
+        <div style="width:40% ;float: left">
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width:10%;text-align:left">Company Address</td>
+                    <td style="width:25%;text-align: left;">IN</td>
+                </tr>
+            </table>
+        </div>
+        <div style="width:50% ;float: right">
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width:10%;text-align:left">
+                        Created Date
+                    </td>
+                    <td style="width:25%;text-align: left;">
+                        8/1/2021
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Quote Number
+                    </td>
+                    <td>
+                        000000000002
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br/><br/><br/>
+        <div style="width: 40%;">
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width:10%;text-align:left">Prepared By</td>
+                    <td style="width:25%;text-align: left;">Manjeet Verma</td>
+                </tr>
+                <tr>
+                    <td style="width:10%;text-align:left">Email</td>
+                    <td style="width:25%;text-align: left;">manjeet.verma3@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+        <br/>
+        <div style="width: 40%;float: left ;">
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width:10%;text-align:left">Bill to Name </td>
+                    <td style="width:25%;text-align: left;">Edge Communication </td>
+                </tr>
+                <tr>
+                    <td style="width:10%;text-align:left">Bill to </td>
+                    <td style="width:25%;text-align: left;">312 Constitution Place Austin,TX 78767 US Austin, Tx</td>
+                </tr>
+            </table>
+        </div>
+        <div style="width: 50%;float: right;">
+            <table style="width: 100%;">
+                <tr>
+                    <td>Ship to Name </td>
+                    <td>Edge Communication </td>
+                </tr>
+                <tr>
+                    <td>Ship to </td>
+                    <td>312 Constitution Place Austin,TX 78767 USA</td>
+                </tr>
+            </table>
+            <br/><br/>
+        </div>
+        <br/>
+        <br/>
+        <table style="border: 2px; border-color: black; width: 100%;">
+            <tr style="background-color:cadetblue;">
+                <th>
+                    Product
+                </th>
+                <th>
+                    Date
+                </th>
+                <th style="text-align: right;">
+                    List Price
+                </th>
+                <th style="text-align: right;">
+                    Sales Price
+                </th>
+                <th style="text-align: right;">
+                    Quantity
+                </th>
+                <th style="text-align: right;">
+                    Total Price
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    GenWatt Diesel 200kW
+                </td>
+                <td>
+                    2/2/2021
+                </td>
+                <td style="text-align: right;">
+                    $25,000.00
+                </td>
+                <td style="text-align: right;">
+                    $25,000.00
+                </td>
+                <td style="text-align: right;">
+                    12.00
+                </td>
+                <td style="text-align: right;">
+                    $300,000.00
+                </td>
+            </tr>
+            <tr style="background-color: darkgrey;">
+                <td>
+                    GenWatt Gasoline 2000kW
+                </td>
+                <td>
+                    2/9/2021
+                </td>
+                <td style="text-align: right;">
+                    $150,000.00
+                </td>
+                <td style="text-align: right;">
+                    $150,000.00
+                </td>
+                <td style="text-align: right;">
+                    1234.00
+                </td>
+                <td style="text-align: right;">
+                    $185,100,000.00
+                </td>
+            </tr>
+        </table>
+        <div style="width: 50%; float: right;">
+            <table style="width: 100%;">
+                <tr>
+                    <td>Sutotal</td>
+                    <td>$185,400,000.00</td>
+                </tr>
+                <tr>
+                    <td>Discount</td>
+                    <td>0.00%</td>
+                </tr>
+                <tr>
+                    <td>Total Price</td>
+                    <td>$185,400,000.00</td>
+                </tr>
+                <tr>
+                    <td>Grand Total</td>
+                    <td>$185,400,000.00</td>
+                </tr>
+                <br/>
+            </table>
+            </div><br/>
+        <br/><br/><br/><br/><br/>
+        <div style="background-color: aquamarine;">
+            Quote Acceptance Information
+        </div>
+            <br/> 
+        <div style="width: 50%; float: left;">
+            <table style="width: 100%;">
+                <tr>
+                    <td>
+                        Signature
+                    </td>
+                    <td>
+                        _____________________________________
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Name
+                    </td>
+                    <td>
+                        _____________________________________
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Title
+                    </td>
+                    <td>
+                        _____________________________________
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date
+                    </td>
+                    <td>
+                        _____________________________________
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+    </html>   
+</apex:page>

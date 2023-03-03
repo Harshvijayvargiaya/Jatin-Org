@@ -1,0 +1,795 @@
+<apex:page standardStylesheets="true" renderAs="pdf">
+    <html>
+	<head>
+		<title>Wedding Planner Assignment</title>
+	</head>
+	<body>
+		<div style="margin-left: 300px;margin-right: 300px;margin-top:50px">
+		<div style="width:100%; background-color: orangered;" >
+            <br/>
+		</div>
+		<h1 style="color:orangered;">Detailed budget</h1>
+        <br/><br/>
+        <p>After filling out the 'Budget estimator' tab, plan and track a more detailed <br/>
+            breakdown by filling out the 'Estimated' and 'Actual' amounts here.<br/><br/>
+            The 'Planned budget' , 'Estimated total', and 'Actual total' will<br/>
+			automatically calculate for you.</p>
+         <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Ceremony 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+                     <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Reception 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations</td>
+                        <td style="text-align: right;">$500</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$750</td>
+                    <td style="color:orangered;">$750</td>
+                    <td style="color:orangered;">$0</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+                     <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Printed Material 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Save the date</td>
+                        <td style="text-align: right;">$100</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Invitation</td>
+                        <td style="text-align: right;">$625</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Wedding Programs</td>
+                        <td style="text-align: right;">$100</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$750</td>
+                    <td style="color:orangered;">$825</td>
+                    <td style="color:orangered;">$0</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+                     <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Gifts/Favors 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+                     <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Venue 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+                     <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Attire 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+                     <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Rings 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+                     <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Hair n Makeup 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+         <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Flowers 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+         <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Cake 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+         <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Caterer n Drinks 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+         <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Photography 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+                     <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Entertainment 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+                     <div>
+            <div style="width:100%;color: orangered;font-size: x-large;text-align: left;">
+                Misc 
+            </div>
+            <br/>
+            <table style="width: 100%;">
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th style="text-align: right;">
+                        Estimated
+                    </th>
+                    <th style="text-align: center">
+                        Actual
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td style="text-align: left;">Decorations/accessories</td>
+                        <td style="text-align: right;">$150</td>
+                        <td style="text-align: center;">$300</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;">Location fee</td>
+                        <td style="text-align: right;">$250</td>
+                        <td style="text-align: center;">$0</td>
+                    </tr>
+            </table>
+            <br/>
+            <hr/>
+            <table style="width: 38%;float: right;">
+                <tr>
+                    <td>Planned budget</td>
+                    <td>Estimated total</td>
+                    <td>Actual total</td>
+                </tr>
+                <tr>
+                    <td style="color:orangered;">$500</td>
+                    <td style="color:orangered;">$400</td>
+                    <td style="color:orangered;">$300</td>
+                </tr>
+            </table>
+        </div>
+            <br/><br/><br/>
+      </div>
+    </body>
+  </html>
+</apex:page>

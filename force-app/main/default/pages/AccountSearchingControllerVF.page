@@ -1,0 +1,28 @@
+<apex:page controller="AccountSearchingController">
+    <apex:slds />
+    <apex:form >
+        <center>
+            <b><h1>***Search Account***</h1></b><br/>
+            Enter Account Name:- <apex:inputText value="{!getAccName}" label="Enter Account Name"/>
+            <apex:commandButton action="{!getAccountName}" value="Search" title="Search" />
+        </center>
+        <table  class="slds-table slds-table_cell-buffer slds-table_bordered" >    
+            <thead>
+                <tr>
+                    <th>Account Name</th>
+                    <th>Account Number</th>
+                    <th>Account Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <apex:repeat value="{!accList}" var="acc">
+                    <tr>
+                        <th>{!acc.Name}</th>
+                        <th>{!acc.AccountNumber}</th>
+                        <th>{!acc.Phone}</th>
+                    </tr>
+                </apex:repeat>
+            </tbody>
+        </table>
+    </apex:form>
+</apex:page>
